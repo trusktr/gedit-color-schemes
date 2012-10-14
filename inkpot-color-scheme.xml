@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+ Copyright (C) 2011 Campbell Barton
+ Author: Campbell Barton <ideasman42@gmail.com>
+
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Library General Public
+ License as published by the Free Software Foundation; either
+ version 2 of the License, or (at your option) any later version.
+
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Library General Public License for more details.
+
+ You should have received a copy of the GNU Library General Public
+ License along with this library; if not, write to the
+ Free Software Foundation, Inc., 59 Temple Place - Suite 330,
+ Boston, MA 02111-1307, USA.
+
+-->
+
+<style-scheme id="inkpot" _name="InkPot" version="1.0">
+  <author>Campbell Barton (ideasman42)</author>
+  <_description>Color scheme based on vim's inkpot scheme</_description>
+
+  <!-- original colors from: https://raw.github.com/ciaranm/inkpot/master/colors/inkpot.vim  -->
+
+  <!-- InkPot Palette -->
+  <color name="White"                       value="#ffffff"/>
+  <color name="PurpleDeep"                  value="#1e1e27"/>
+  <color name="PurpleMid"                   value="#4e4e8f"/>
+  <color name="PurpleLight"                 value="#8b8bff"/>
+  <color name="GreyDark"                    value="#2e2e2e"/>
+  <color name="GreyDark2"                   value="#303030"/>
+  <color name="GreyLight"                   value="#cfbfad"/>
+  <color name="BrownMid"                    value="#404040"/>
+  <color name="OrangeBright"                value="#cd8b00"/>
+  <color name="OrangeLight"                 value="#f0ad6d"/>
+  <color name="OrangePale"                  value="#ffcd8b"/>
+  <color name="OrangePaleMid"               value="#cd8b60"/>
+  <color name="PinkLight"                   value="#ff8bff"/>
+  <color name="PinkMid"                     value="#c080d0"/>
+  <color name="GreenDeep"                   value="#409090"/>
+  <color name="BlueLight"                   value="#808bed"/>
+  <color name="BluePale"                    value="#8b8bcd"/>
+  <color name="RedPale"                     value="#ce4e4e"/>
+  <color name="RedDeep"                     value="#8b0000"/>
+
+  <!-- InkPot Additions for GEdit -->
+    <!-- 5 shades lighter then PurpleDeep for current line -->
+  <color name="PurpleDeepTint"              value="#272733"/>
+
+
+  <!-- Global Settings -->
+  <style name="text" foreground="GreyLight" background="PurpleDeep"/>
+  <style name="selection" foreground="#white" background="PurpleMid"/>
+  <style name="cursor" foreground="PurpleLight"/>
+  <style name="current-line" background="PurpleDeepTint"/> 
+  <style name="line-numbers" foreground="BluePale" background="GreyDark"/>
+
+  <!-- Bracket Matching -->
+  <style name="bracket-match" foreground="GreyLight" background="PurpleMid"/>
+  <!-- not included in original inkpot -->
+  <style name="bracket-mismatch" foreground="GreyLight" background="RedPale"/>
+
+  <!-- Right Margin -->
+  <style name="right-margin"                background="RedDeep"/>
+
+  <!-- Search Matching -->
+  <style name="search-match" foreground="GreyDark2" background="OrangePaleMid" bold="true"/>
+
+  <!-- Comments -->
+  <style name="def:comment" foreground="OrangeBright"/>
+  <!-- not bold in original inkpot -->
+  <style name="def:shebang" foreground="OrangeBright" bold="true"/>
+  <!-- not italic in original inkpot -->
+  <style name="def:doc-comment-element" italic="true"/>
+
+  <!-- Constants -->
+  <style name="def:constant" foreground="OrangeLight"/>
+  <style name="def:base-n-integer" foreground="OrangeLight"/>
+  <style name="def:complex" foreground="OrangeLight"/>
+  <style name="def:decimal" foreground="OrangeLight"/>
+
+  <style name="def:string" foreground="OrangePale" background="BrownMid"/>
+  <style name="def:special-char" foreground="PinkMid"/>
+  <style name="def:special-constant" foreground=""/>
+  <style name="def:floating-point" foreground="OrangeLight"/>
+  <style name="def:function" foreground="bright-blue"/>
+
+  <!-- Identifiers -->
+  <style name="def:identifier" foreground="PinkLight"/>
+
+  <!-- Statements -->
+  <style name="def:statement" foreground="BlueLight" bold="false"/>
+
+  <!-- Types -->
+  <style name="def:type" foreground="PinkLight" bold="false"/>
+
+  <!-- Others -->
+  <style name="def:keyword" foreground="BlueLight" bold="false"/> 
+  <style name="def:preprocessor" foreground="GreenDeep"/>
+  <style name="def:error" foreground="White" background="RedPale" bold="false"/>
+  <style name="def:underlined" italic="true" underline="true"/> <!-- TODO -->
+  <style name="latex:display-math" foreground="#slate blue" bold="false"/>  <!-- TODO -->
+
+  <!-- Language specific -->
+  <style name="diff:added-line"             foreground="PinkLight"/>
+  <style name="diff:removed-line"           foreground="OrangeBright"/> <!-- in gvim added and removed are the same, but this is not too useful, use commented color for removed lines  -->
+  <style name="diff:changed-line"           foreground="#00FFFF"/>
+  <style name="diff:diff-file"              foreground="GreenDeep" bold="true"/> 
+  <style name="diff:location"               foreground="BlueLight"/> 
+  <style name="diff:special-case"           foreground="#FFFF00" bold="true"/>
+
+</style-scheme>
+

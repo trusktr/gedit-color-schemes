@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<style-scheme id="autumn2" name="Autumn 2" version="1.0">
+	<author/>
+	<_description>Autumn theme</_description>
+	<style background="#f7f7f7" foreground="#black" name="text"/>
+	<style background="#red" foreground="#black" name="cursor"/>
+	<style background="#447744" foreground="#aaeeaa" name="diff:added-line"/>
+	<style background="#ddbb55" foreground="#lightyellow" name="diff:changed-line"/>
+	<style background="#aaccaa" foreground="#336633" name="diff:removed-line"/>
+	<style background="#lightgrey" foreground="#brown" name="line-numbers"/>
+	<style background="#yellow" foreground="#black" name="search-match"/>
+	<style background="#bg" foreground="#977" name="def:comment"/>
+	<style background="#bg" foreground="#977" name="def:comment"/>
+	<style background="#bg" foreground="#bb6666" name="def:constant"/>
+	<style background="#bg" foreground="#darkcyan" name="def:specials" bold="true" />
+	<style background="#bg" foreground="#darkcyan" name="def:identifier" bold="true" />
+	<style background="#bg" foreground="#darkcyan" name="def:statement" />
+	<style background="#bg" foreground="#darkgrey" name="def:preprocessor"/>
+	<style background="#bg" foreground="#bb9900" name="def:type" bold="true" />
+	<style background="#bg" foreground="#0055cc" name="def:function" bold="true" />
+  <style name="selection"                   foreground="#black" background="#gray"/>
+  <style name="def:note" foreground="#ffa" background="#c30" bold="true"/>
+</style-scheme>
+

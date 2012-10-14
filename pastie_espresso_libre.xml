@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2
+of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+
+Copyright (C) 2011 Kenny Gallina
+https://sourceforge.net/users/gallinascripsit
+
+-->
+
+
+<style-scheme id="pastie_espresso_libre" name="Espresso Libre" version="1.0">
+  <author>Kenny Gallina</author>
+  <description>An adaptation of the &quot;Espresso Libre&quot; theme from Pastie.org, using various nuances of brown.</description>
+  
+  
+  <!-- Colors of Pastie.org's Espresso Libre theme -->
+  <color name="espresso-brown" value="#2a211c"/>
+  <color name="bright-blue" value="#3da8ed"/>
+  <color name="greyish-blue" value="#308495"/>
+  <color name="lilac-blue" value="#5d79de"/>
+  <color name="green" value="#0e930e"/>
+  <color name="pale-brown" value="#bdae9d"/>
+  <color name="greyish-pink" value="#c5656b"/>
+  
+  <!-- Additional colors that don't belong to Espresso Libre to make the style
+       usable for gedit -->
+  <color name="white" value="#ffffff"/>
+  <color name="red" value="#ff0404"/>
+  <color name="warm-brown" value="#c47901"/>
+  <color name="light-brown" value="#52463f"/>
+  <color name="gold" value="#d99426"/>
+  <color name="creme" value="#ffe6bb"/>
+  <color name="bright-green" value="#26b800"/>
+  <color name="orange-brown" value="#e96200"/>
+  <color name="lime-green" value="#9ae000"/>
+  <color name="rosee" value="#ffaded"/>
+  <color name="yellow" value="#ffe73c"/>
+  <!--5a4d45 b5421a a04323 c36136 934A00-->
+  
+  <style name="bracket-match" background="greyish-blue" foreground="espresso-brown" bold="false"/>
+  <style name="bracket-mismatch" background="red" foreground="espresso-brown" bold="false"/>
+  <style name="current-line" background="light-brown"/>
+  <style name="line-numbers" background="espresso-brown" foreground="gold"/>
+  <style name="right-margin" background="espresso-brown" foreground="pale-brown"/>
+  <style name="search-match" background="gold" foreground="espresso-brown"/>
+  <style name="text" foreground="creme" background="espresso-brown"/>
+  <style name="selection" background="white" foreground="espresso-brown"/>
+  <style name="selection-unfocused" background="white" foreground="espresso-brown"/>
+
+
+  <style name="def:base-n-integer" foreground="rosee"/>
+  <style name="def:boolean" foreground="yellow" bold="true"/>
+  <style name="def:builtin" foreground="pale-brown"/> <!-- unsure -->
+  <style name="def:character" foreground="lime-green"/>
+  <style name="def:comment" foreground="orange-brown"/>
+  <style name="def:complex" foreground="greyish-pink"/>
+  <style name="def:constant" foreground="white"/>
+  <style name="def:decimal" foreground="rosee"/>
+  <style name="def:doc-comment-element" foreground="greyish-blue" italic="true"/> <!-- untested -->
+  <style name="def:error" background="red" foreground="espresso-brown" bold="true"/>
+  <style name="def:floating-point" foreground="greyish-pink"/>
+  <style name="def:function" foreground="bright-blue"/>
+  <style name="def:identifier" foreground="warm-brown" bold="true"/>
+  <style name="def:keyword" foreground="bright-blue" bold="true"/>
+  <style name="def:note" background="orange-brown" foreground="espresso-brown" bold="true"/>
+  <style name="def:preprocessor" foreground="warm-brown"/>
+  <style name="def:shebang" foreground="warm-brown" italic="true"/>
+  <style name="def:special-char" foreground="lime-green"/>
+  <style name="def:special-constant" foreground="red" bold="true"/>
+  <style name="def:statement" foreground="red"/>
+  <style name="def:string" foreground="bright-green"/>
+  <style name="def:type"  foreground="bright-blue" bold="true"/>
+  <style name="def:underlined" underline="true"/>
+
+
+<!-- The following styles have not been tested -->
+
+  <style name="diff:added-line" foreground="green"/>
+  <style name="diff:changed-line" foreground="bright-blue"/>
+  <style name="diff:diff-file" foreground="yellow"/>
+  <style name="diff:location" foreground="warm-brown"/>
+  <style name="diff:removed-line" foreground="red"/>
+  <style name="diff:special-case" foreground="yellow"/>
+  
+  <style name="latex:display-math" foreground="green"/>
+  <style name="latex:command" use-style="def:builtin"/>
+  <style name="latex:include" use-style="def:preprocessor"/>
+  <style name="latex:verbatim" use-style="def:string"/>
+
+  <style name="Others" foreground="creme"/>
+  <style name="Others 2" foreground="creme"/>
+  <style name="Others 3" foreground="creme"/>
+
+</style-scheme>
